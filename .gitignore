@@ -1,0 +1,50 @@
+# Build and distribution directories
+build/
+dist/
+*.egg-info/
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv*/
+env/
+.env/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Generated files
+*.spec
+*.icns
+*.ico
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.html
+*.yaml
+*.yml
+
+# Scripts
+icon_generator.py
+make_icns.sh
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Local development settings
+.env
+.env.local
+.env.*.local
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
