@@ -48,3 +48,10 @@ make_icns.sh
 htmlcov/
 .pytest_cache/
 .tox/
+
+# Font files
+*.ttf
+
+# Icon generation scripts
+convert_to_icns.py
+create_icon.py
